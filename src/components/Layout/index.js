@@ -28,11 +28,12 @@ const LayoutMain = styled.main`
 `
 const ContainerHeader = styled.header`
   display: grid;
-  grid-template-columns:50%;
-  
+  grid-template-columns:100%;
+  border:1px solid #FAFAFA;
+  border-radius:1px;
   margin-left: auto;
   margin-right: auto;
-  width: 6em
+  width: 6em;
   padding:2rem;
 `
 //<p> tag with some styles
