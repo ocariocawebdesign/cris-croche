@@ -10,15 +10,11 @@ const Logo = () => {
                 
                 logoImage: file(relativePath:{ eq:"logo.png" }) {
                     childImageSharp{    
-
                         fluid(maxWidth: 120, maxHeight: 120) {
                             ...GatsbyImageSharpFluid
-
                         }
-
                     }
                 }
-
             }
         
         `

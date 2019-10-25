@@ -4,6 +4,7 @@ import Perfil from "../Perfil"
 import Header from "../Header"
 import Footer from "../Footer"
 import Logo from "../Logo"
+import Tapetes from "../Tapetes"
 import styled from "styled-components"
 import { Link } from "gatsby"
 
@@ -97,6 +98,7 @@ const Layout = ({ children }) => {
             <Perfil />
             {children}
           </PerfilParagraph>
+          <Tapetes />
         </PerfilWrapper>
         <Footer />
       </LayoutMain>
