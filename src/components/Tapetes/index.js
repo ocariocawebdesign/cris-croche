@@ -1,4 +1,4 @@
-import React from "react"
+/*import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
@@ -13,7 +13,7 @@ const Tapetes = () => {
             }
           }
         }
-      }
+      }s
     `
   )
   return (
@@ -22,3 +22,4 @@ const Tapetes = () => {
 }
 
 export default Tapetes
+*/
