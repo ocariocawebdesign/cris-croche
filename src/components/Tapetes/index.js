@@ -17,7 +17,7 @@ const Tapetes = () => {
     `
   )
   return (
-    <Img fluid={tapeteImage.childImageSharp.fluid} style={{ width: "330px" }} />
+    <Img fluid={tapeteImage.childImageSharp.fluid} style={{ width: "180px" }} />
   )
 }
 
