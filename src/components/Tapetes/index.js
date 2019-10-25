@@ -8,7 +8,7 @@ const Tapetes = () => {
       query {
         tapeteImage: file(relativePath: { eq: "tapete01.jpg" }) {
           childImageSharp {
-            fluid(maxWidth: 320, maxHeight: 330) {
+            fluid(maxWidth: 120, maxHeight: 130) {
               ...GatsbyImageSharpFluid
             }
           }
@@ -17,7 +17,7 @@ const Tapetes = () => {
     `
   )
   return (
-    <Img fluid={tapeteImage.childImageSharp.fluid} style={{ width: "180px" }} />
+    <Img fluid={tapeteImage.childImageSharp.fluid} style={{ width: "120px" }} />
   )
 }
 
